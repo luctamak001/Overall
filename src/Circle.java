@@ -32,7 +32,7 @@ public class Circle {
         return Math.PI * radius * radius;
     }
 
-    public static Circle makeCircleWithRadiusX(double radius, double x, double y) {
+    public static Circle makeCircleWithRadiusX(double radius, double x) {
         return new Circle(radius, x, 0.0);
     }
 }

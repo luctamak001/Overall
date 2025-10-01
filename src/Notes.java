@@ -34,7 +34,7 @@ public class Notes {
         Circle myCircle3 = new Circle(1, 2);
         Circle myCircle4 = new Circle(1);
 
-        Circle myCircle5 = Circle.makeCircleWithRadiusX();
+        Circle myCircle5 = Circle.makeCircleWithRadiusX(2.3, 3.4);
 
     }
 }
